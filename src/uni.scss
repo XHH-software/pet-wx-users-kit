@@ -1,0 +1,34 @@
+/* 设计 Token — 与管理端保持一致 */
+
+/* 主色 */
+$p-primary: #4080FF;
+$p-primary-light: #E8F0FF;
+$p-primary-dark: #2860D8;
+
+/* 功能色 */
+$p-success: #00B42A;
+$p-warning: #FF7D00;
+$p-danger: #F53F3F;
+$p-info: #86909C;
+
+/* 文字色 */
+$p-text-1: #1D2129;
+$p-text-2: #4E5969;
+$p-text-3: #86909C;
+$p-text-4: #C9CDD4;
+
+/* 背景/边框 */
+$p-bg-page: #F5F7FA;
+$p-bg-card: #FFFFFF;
+$p-border-light: #E5E6EB;
+$p-border: #C9CDD4;
+
+/* 圆角 */
+$p-radius-sm: 4rpx;
+$p-radius: 8rpx;
+$p-radius-lg: 16rpx;
+$p-radius-round: 999rpx;
+
+/* 阴影 */
+$p-shadow-card: 0 2rpx 12rpx rgba(0, 0, 0, 0.06);
+$p-shadow-popup: 0 -4rpx 24rpx rgba(0, 0, 0, 0.1);

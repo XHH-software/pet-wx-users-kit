@@ -1,0 +1,47 @@
+{
+  "name": "宠物服务预约",
+  "appid": "__UNI__PET_WX",
+  "description": "宠物服务预约平台客户端",
+  "versionName": "1.0.0",
+  "versionCode": "100",
+  "transformPx": false,
+  "app-plus": {
+    "usingComponents": true,
+    "splashscreen": {
+      "alwaysShowBeforeRender": true,
+      "waiting": true,
+      "autoclose": true,
+      "delay": 0
+    }
+  },
+  "mp-weixin": {
+    "appid": "touristappid",
+    "setting": {
+      "urlCheck": false,
+      "es6": true,
+      "postcss": true,
+      "minified": true
+    },
+    "usingComponents": true,
+    "permission": {
+      "scope.userLocation": {
+        "desc": "用于获取您的位置信息以便推荐附近门店"
+      }
+    }
+  },
+  "h5": {
+    "router": {
+      "mode": "history"
+    },
+    "devServer": {
+      "port": 8082,
+      "proxy": {
+        "/api": {
+          "target": "http://localhost:8080",
+          "changeOrigin": true,
+          "pathRewrite": { "^/api": "" }
+        }
+      }
+    }
+  }
+}

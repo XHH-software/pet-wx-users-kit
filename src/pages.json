@@ -1,0 +1,56 @@
+{
+  "pages": [
+    { "path": "pages/index/index", "style": { "navigationBarTitleText": "宠物服务预约", "enablePullDownRefresh": true } },
+    { "path": "pages/service/list", "style": { "navigationBarTitleText": "服务项目", "enablePullDownRefresh": true } },
+    { "path": "pages/service/detail", "style": { "navigationBarTitleText": "服务详情" } },
+    { "path": "pages/appointment/create", "style": { "navigationBarTitleText": "预约下单" } },
+    { "path": "pages/appointment/list", "style": { "navigationBarTitleText": "我的预约" } },
+    { "path": "pages/appointment/detail", "style": { "navigationBarTitleText": "预约详情" } },
+    { "path": "pages/pet/list", "style": { "navigationBarTitleText": "我的宠物" } },
+    { "path": "pages/pet/edit", "style": { "navigationBarTitleText": "编辑宠物" } },
+    { "path": "pages/address/list", "style": { "navigationBarTitleText": "地址管理" } },
+    { "path": "pages/address/edit", "style": { "navigationBarTitleText": "编辑地址" } },
+    { "path": "pages/review/create", "style": { "navigationBarTitleText": "发表评价" } },
+    { "path": "pages/review/list", "style": { "navigationBarTitleText": "我的评价" } },
+    { "path": "pages/profile/index", "style": { "navigationBarTitleText": "个人中心" } }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "宠物服务",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#F5F7FA",
+    "backgroundTextStyle": "dark"
+  },
+  "tabBar": {
+    "color": "#86909C",
+    "selectedColor": "#4080FF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tab-home.png",
+        "selectedIconPath": "static/images/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/service/list",
+        "text": "服务",
+        "iconPath": "static/images/tab-service.png",
+        "selectedIconPath": "static/images/tab-service-active.png"
+      },
+      {
+        "pagePath": "pages/appointment/list",
+        "text": "预约",
+        "iconPath": "static/images/tab-order.png",
+        "selectedIconPath": "static/images/tab-order-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "static/images/tab-profile.png",
+        "selectedIconPath": "static/images/tab-profile-active.png"
+      }
+    ]
+  }
+}
